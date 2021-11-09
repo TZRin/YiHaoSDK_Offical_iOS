@@ -1,0 +1,6 @@
+framework module YiHaoSDKCore_Offical {
+  umbrella header "YiHaoSDKCore_Offical.h"
+
+  export *
+  module * { export * }
+}
