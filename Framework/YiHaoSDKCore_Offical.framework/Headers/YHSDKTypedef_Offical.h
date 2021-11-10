@@ -23,14 +23,13 @@ typedef enum YHSDKReportType {
     YHSDKReportTypeRoleLogout         = 3 //角色成功登出上报
 }YHSDKReportType;
 
-//YHSDKPurchaseResultWYPay说明 需要配合checkPurchaseStatus接口完成流程
 typedef enum YHSDKPurchaseResult {
     YHSDKPurchaseResultUnknown      = 0,//未知
     YHSDKPurchaseResultSuccess      = 1,//成功
     YHSDKPurchaseResultFailure      = 2,//失败
     YHSDKPurchaseResultPurchased    = 3,//已经购买过了
     YHSDKPurchaseResultNotAuth      = 4,//用户没授权内购
-    YHSDKPurchaseResultWYPay        = 5,//见上方说明
+    YHSDKPurchaseResultWYPay        = 5,//代表现在是网页支付操作了
     YHSDKPurchaseResultNAProducts   = 6,//拉取苹果商品信息失败
     YHSDKPurchaseResultNOProducts   = 7,//没有找到对应商品
     YHSDKPurchaseResultNeedRetry    = 8 //有订单没处理完，需要等待其处理完毕后重试购买
