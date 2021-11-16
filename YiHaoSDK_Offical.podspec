@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "YiHaoSDK_Offical"
-  spec.version      = "1.0.3"
+  spec.version      = "1.0.5"
   spec.summary      = "YiHaoSDK_Offical iOS"
 
   # This description is used to generate tags and improve search results.
@@ -139,7 +139,6 @@ spec.user_target_xcconfig = {'ENABLE_BITCODE' => 'NO' ,'OTHER_LDFLAGS' => '-lObj
 spec.vendored_frameworks = ['Framework/YiHaoSDKCore_Offical.framework']
 
 spec.dependency "YiHaoSDK_Common"
-spec.dependency "IQKeyboardManager"
-spec.dependency "Bugly"
+spec.dependency "IQKeyboardManager" 
 
 end

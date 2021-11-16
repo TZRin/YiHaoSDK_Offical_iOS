@@ -14,6 +14,7 @@ FOUNDATION_EXPORT double SDKCoreVersionNumber;
 FOUNDATION_EXPORT const unsigned char SDKCoreVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <SDKCore/PublicHeader.h>
+#import <YiHaoSDKCore_Offical/YiHaoSDKCore_Offical.h>
 #import <YiHaoSDKCore_Offical/YiHaoSDK_Offical.h>
 #import <YiHaoSDKCore_Offical/YHSDKPurchaseOrder.h>
 #import <YiHaoSDKCore_Offical/YHSDKBubbleView.h>
