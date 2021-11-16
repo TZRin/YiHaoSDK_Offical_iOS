@@ -41,10 +41,7 @@
 /// @param  removeOnLogout 当调用退出登录时,会自动移除掉
 /// @return 悬浮窗对象
 - (YHSDKBubbleView *)showBubbleViewOnSuperview:(UIView *)superview bubbleSize:(CGSize)size enableAutoCalSafeArea:(BOOL)flag removeOnLogout:(BOOL)removeOnLogout;
-
-/// 禁用sdk支付模块api中的hud
-@property (assign, nonatomic) BOOL disableSDKHUD;
-
+ 
 /// 显示健康游戏忠告
 /// @param time 持续时间,传入0为默认时间4秒
 /// @param superview 你想在哪个view上显示
