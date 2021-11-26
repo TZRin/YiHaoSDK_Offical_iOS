@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "YiHaoSDK_Offical"
-  spec.version      = "1.0.9"
+  spec.version      = "1.1.0"
   spec.summary      = "YiHaoSDK_Offical iOS"
 
   # This description is used to generate tags and improve search results.
