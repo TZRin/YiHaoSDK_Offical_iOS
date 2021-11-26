@@ -87,7 +87,7 @@
 - (void)purchaseOrder:(YHSDKPurchaseOrder *)order complete:(YHSDKPurchaseResultBlock)completeBlock;
 
 ///检测订单是否发货
-/// @param order 待检测的参数模型,需要填写our_tradeNO字段值
+/// @param order 待检测的参数模型,需要填写trade_no字段值
 /// @param resultBlock 结果回调
 - (void)validatePurchaseOrderStatus:(YHSDKPurchaseOrder *)order result:(YHSDKPurchaseValidateResultBlock)resultBlock;
 

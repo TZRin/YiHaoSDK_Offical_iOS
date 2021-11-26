@@ -26,7 +26,7 @@
 		</data>
 		<key>Headers/YHSDKPurchaseOrder.h</key>
 		<data>
-		hxfAfsWqDhr4lm4hjO4MdGcLjeU=
+		LDoa6f5cSKg8cOoXPTOkGTzfgm0=
 		</data>
 		<key>Headers/YHSDKReportInfo.h</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Headers/YiHaoSDK_Offical.h</key>
 		<data>
-		5k9QmGLlHc4i4zwK1YgnJl0gl/A=
+		uFMdwG/GNxWmntTcl1rkJabDocI=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -122,11 +122,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hxfAfsWqDhr4lm4hjO4MdGcLjeU=
+			LDoa6f5cSKg8cOoXPTOkGTzfgm0=
 			</data>
 			<key>hash2</key>
 			<data>
-			H7DN05zzgSgImauojCccS6ZsFtnoMS9w2BjOoIliczw=
+			xjxTqupS6U2eZBbQSyShWcg2ewCUwY6Sy6B161JB83E=
 			</data>
 		</dict>
 		<key>Headers/YHSDKReportInfo.h</key>
@@ -166,11 +166,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5k9QmGLlHc4i4zwK1YgnJl0gl/A=
+			uFMdwG/GNxWmntTcl1rkJabDocI=
 			</data>
 			<key>hash2</key>
 			<data>
-			J1sxxFqJRKwKee4xPlVkO4Tm6/V93Tch8iGylTdTX8k=
+			hKML/2PNcKuUWHwbWa5P0/7COseA1IwDch1b9dYNOqA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

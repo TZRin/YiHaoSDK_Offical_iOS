@@ -38,7 +38,7 @@
 @property (copy, nonatomic) NSString * role_level;
 
 /// 创建订单返回订单号
-@property (copy, nonatomic) NSString * our_tradeNO;
+@property (copy, nonatomic) NSString * trade_no;
 
 /// 透传参数,建议json格式
 @property (copy, nonatomic) NSString * userInfo;
