@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "YiHaoSDK_Offical"
-  spec.version      = "1.1.0"
+  spec.version      = "1.1.1"
   spec.summary      = "YiHaoSDK_Offical iOS"
 
   # This description is used to generate tags and improve search results.
@@ -105,8 +105,10 @@ Pod::Spec.new do |spec|
   #  non-essential files like tests, examples and documentation.
   #
 
-  spec.resource  = "Framework/SDKResources.bundle"
- 
+  # spec.resource  = "Framework/SDKResources.bundle"
+
+  spec.resources = ['Framework/SDKResources.bundle','Framework/ATAuthSDK.bundle']
+
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
@@ -136,7 +138,7 @@ spec.user_target_xcconfig = {'ENABLE_BITCODE' => 'NO' ,'OTHER_LDFLAGS' => '-lObj
  
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
 
-spec.vendored_frameworks = ['Framework/YiHaoSDKCore_Offical.framework']
+spec.vendored_frameworks = ['Framework/YiHaoSDKCore_Offical.framework','Framework/ATAuthSDK.framework','Framework/YTXMonitor.framework','Framework/YTXOperators.framework']
 
 spec.dependency "YiHaoSDK_Common"
 spec.dependency "IQKeyboardManager"

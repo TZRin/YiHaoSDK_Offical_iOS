@@ -9,4 +9,7 @@
  
 @interface YHSDKConfig : NSObject
 
+/// 快速登录key
+@property (copy, nonatomic) NSString * fastLoginKey;
+
 @end
